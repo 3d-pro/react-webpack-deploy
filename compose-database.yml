@@ -1,0 +1,5 @@
+mongodb:
+   image: "registry.it.kmitl.ac.th/mongodb"
+   container_name: "mongodb"
+   hostname: "mongodb"
+   restart: "always"

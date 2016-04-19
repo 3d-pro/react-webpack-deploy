@@ -1,9 +1,3 @@
-mongodb:
-   image: "registry.it.kmitl.ac.th/mongodb"
-   container_name: "mongodb"
-   hostname: "mongodb"
-   restart: "always"
-
 react-webpack:
    image: "registry.it.kmitl.ac.th/react-webpack"
    container_name: "mongodb"
@@ -11,5 +5,5 @@ react-webpack:
    restart: "always"
    ports:
      - "3000:3000"
-   links:
-     - "mongodb:mongodb"
+   external_links:
+     - "mongodb"
