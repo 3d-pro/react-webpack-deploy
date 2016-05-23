@@ -1,5 +1,5 @@
 react-webpack:
-   image: "registry.it.kmitl.ac.th/react-webpack"
+   image: "3dpro/react-webpack"
    container_name: "react-webpack"
    hostname: "react-webpack"
    restart: "always"

@@ -1,5 +1,5 @@
 mongodb:
-   image: "registry.it.kmitl.ac.th/mongodb"
+   image: "3dpro/mongodb"
    container_name: "mongodb"
    hostname: "mongodb"
    restart: "always"
